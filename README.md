@@ -16,3 +16,9 @@ https://www.youtube.com/watch?v=eU1csuRrb_w&list=PLx-q4INfd95Fywdod81OsM47ve7Uyw
 - pip install cloudinary <= Cloudinary 
 
 - python manage.py makemigrations 
+- python manage.py migrate 
+
+- create serializers.py <= to validate incoming input for users and to specify output for your different responces <= https://www.django-rest-framework.org/api-guide/fields/
+
+- create campaigns/urls.py <= for routing
+- http://127.0.0.1:8000/api/campaigns
