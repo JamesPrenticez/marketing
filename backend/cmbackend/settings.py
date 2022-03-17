@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 import cloudinary
 cloudinary.config(
     cloud_name=os.environ['CLOUD_NAME'],
-    api_keys=os.environ['CLOUD_API_KEY'],
+    api_key=os.environ['CLOUD_API_KEY'],
     api_secret=os.environ['CLOUD_SECRET_KEY'],
 )
 

@@ -22,3 +22,10 @@ https://www.youtube.com/watch?v=eU1csuRrb_w&list=PLx-q4INfd95Fywdod81OsM47ve7Uyw
 
 - create campaigns/urls.py <= for routing
 - http://127.0.0.1:8000/api/campaigns
+
+- python manage.py createsuperuser
+  - user: prent
+  - email: jamesprenticez@gmail.com
+  - pass: kj
+- http://127.0.0.1:8000/api/admin
+- Register Model in cmbackend/admin.py

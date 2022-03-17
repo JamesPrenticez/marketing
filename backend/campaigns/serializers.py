@@ -6,10 +6,10 @@ class CampaignSerializer(serializers.ModelSerializer):
   
   class Meta:
     model=Campaign
-    feilds="__all__"
+    fields="__all__"
     
 class SubscriberSerializer(serializers.ModelSerializer):
   
   class Meta:
     model=Subscriber
-    feilds="__all__"
+    fields="__all__"
