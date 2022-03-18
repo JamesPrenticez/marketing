@@ -23,7 +23,7 @@ class Campaign(models.Model):
     if Campaign.objects.filter(slug=to_assign).exists():
       to_assign = to_assign+str(Campaign.objects.all().count())
       
-    self.slug-to_assign
+    self.slug=to_assign
   
     super().save(*args, **kwargs)
   
