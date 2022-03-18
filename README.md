@@ -29,3 +29,8 @@ https://www.youtube.com/watch?v=eU1csuRrb_w&list=PLx-q4INfd95Fywdod81OsM47ve7Uyw
   - pass: kj
 - http://127.0.0.1:8000/api/admin
 - Register Model in cmbackend/admin.py
+
+- pip install -U drf-yasg <= https://drf-yasg.readthedocs.io/en/stable/readme.html
+
+# Frontend
+- clo <= snippits shortcut for console.log()
