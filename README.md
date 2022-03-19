@@ -34,3 +34,10 @@ https://www.youtube.com/watch?v=eU1csuRrb_w&list=PLx-q4INfd95Fywdod81OsM47ve7Uyw
 
 # Frontend
 - clo <= snippits shortcut for console.log()
+
+- SEO
+<head>
+og:{propertice} <= enable previews of our site details when a link is shared on social meadia sites like twitter and facebook - [https://ogp.me/]
+</head>
+
+- NextSEO - [https://www.npmjs.com/package/next-seo]
