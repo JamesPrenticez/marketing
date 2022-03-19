@@ -41,3 +41,5 @@ og:{propertice} <= enable previews of our site details when a link is shared on 
 </head>
 
 - NextSEO - [https://www.npmjs.com/package/next-seo]
+
+- Date Formate - [https://www.npmjs.com/package/dateformat] <= I like m oment more

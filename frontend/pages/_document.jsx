@@ -21,7 +21,7 @@ class MyDocument extends Document {
 
           <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap" rel="stylesheet"></link>
         </Head>
-        <body className="bg-gray-50 h-full min-h-full font-sans">
+        <body className="bg-[#181c20] text-gray-50 overflow-y-scroll h-full min-h-full font-sans">
           <Main />
           <NextScript />
         </body>
