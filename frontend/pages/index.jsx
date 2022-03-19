@@ -1,7 +1,17 @@
+import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import {useRouter} from 'next/router'
 import moment from "moment"
 
 export default function Home({campanigns, error}) {
+  const router = useRouter()
+
+  const handleClick = (slug) => {
+    console.log('slug', slug)
+    router.push("/" + slug)
+  }
+
   return (
     <div className='flex justify-center'>
       <main className="w-full max-w-3xl xl:max-w-7xl space-y-4">
@@ -13,6 +23,7 @@ export default function Home({campanigns, error}) {
             <div 
               key={campanign.id}
               className="flex justify-between bg-[#21262b] cursor-pointer p-4"
+              onClick={() => handleClick(campanign.slug)}
             >
 
 
@@ -27,7 +38,13 @@ export default function Home({campanigns, error}) {
               </div>
 
               <div className='mr-auto ml-4'>
-                <h2>{campanign.title}</h2>
+            
+              <Link href={`/${campanign.slug}`} passHref>
+                <a>
+                  <h2>{campanign.title}</h2>
+                </a>
+              </Link>
+                
                 <p>{campanign.description}</p>
                 <small>{moment(campanign.created_at).format("DD MMM YYYY")} at {moment(campanign.created_at).format("h:mma")}</small>
               </div>

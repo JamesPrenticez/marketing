@@ -43,3 +43,6 @@ og:{propertice} <= enable previews of our site details when a link is shared on 
 - NextSEO - [https://www.npmjs.com/package/next-seo]
 
 - Date Formate - [https://www.npmjs.com/package/dateformat] <= I like m oment more
+
+- Images lazy load AKA only when they are in view 
+- Links prefetch 
