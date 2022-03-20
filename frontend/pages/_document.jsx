@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <meta property="og:url" content="http://localhost:3000/" />
           <meta property="og:image" content="http://localhost:3000/favicon.ico" />
           
-          <title>Campaign Manager</title>
+
           <meta name="description" content="A site to manage marketing campaigns" />
           <link rel="icon" href="/favicon.ico" />
 

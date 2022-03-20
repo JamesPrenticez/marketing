@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import {useRouter} from 'next/router'
@@ -13,6 +14,10 @@ export default function Home({campanigns, error}) {
   }
 
   return (
+    <>
+    <Head>
+      <title>Campaign Manager | Home</title>
+    </Head>
     <div className='flex justify-center'>
       <main className="w-full max-w-3xl xl:max-w-7xl space-y-4">
         <h1>Campaign Manager</h1>
@@ -57,6 +62,8 @@ export default function Home({campanigns, error}) {
       </main>
     
     </div>
+    </>
+
   )
 }
 
