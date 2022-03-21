@@ -32,6 +32,8 @@ https://www.youtube.com/watch?v=eU1csuRrb_w&list=PLx-q4INfd95Fywdod81OsM47ve7Uyw
 
 - pip install -U drf-yasg <= https://drf-yasg.readthedocs.io/en/stable/readme.html
 
+- pip install django-cors-headers [https://pypi.org/project/django-cors-headers/]
+
 # Frontend
 - clo <= snippits shortcut for console.log()
 

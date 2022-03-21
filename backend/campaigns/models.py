@@ -36,6 +36,6 @@ class Subscriber(models.Model):
   class Meta:
     ordering=("-created_at",) # descending
     
-  def __str__(self):
-      return self.email
+    def __str__(self):
+        return self.email
     
