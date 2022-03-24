@@ -1,8 +1,12 @@
+from http.client import HTTPResponse
 from django.shortcuts import render
 from rest_framework import generics,response,status
 from .models import Campaign, Subscriber
 from .serializers import CampaignSerializer, SubscriberSerializer
 
+from django.http import HttpResponse
+import datetime
+import json
 
 class CampaignListAPIView(generics.ListAPIView):
   serializer_class=CampaignSerializer
@@ -26,3 +30,15 @@ class SubscribeToCampaignAPIView(generics.CreateAPIView):
     
     def get_queryset(self):
       return Subscriber.objects.all()
+    
+def message(request):
+  msg = 'hi'
+  return HttpResponse(msg, content_type='text/json')
+
+def date(request):
+    now = datetime.datetime.now() 
+    msg = f'Today is {now}'
+    return HttpResponse(msg, content_type='text/plain')
+
+    
+    
