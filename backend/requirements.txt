@@ -1,0 +1,8 @@
+cloudinary
+Django
+djangorestframework
+django-cors-headers
+django-filter
+drf_yasg
+markdown
+python-dotenv
